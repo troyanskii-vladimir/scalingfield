@@ -1,0 +1,31 @@
+.box {
+    background-color: #888;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /* width: 800px;
+    height: 800px; */
+    
+}
+
+
+.cell {
+    background-color: #333;
+    width: 12%;
+    height: 12%;
+    box-shadow: 1px 1px 1px 1px red;
+}
+
+
+.cell:first-child,
+.cell:nth-child(8n) + .cell,
+.cell + .cell:nth-child(8n) {
+    width: 14%;
+}
+
+
+.cell:nth-child(-n+8),
+.cell:nth-child(n+57) {
+    height: 14%;
+}

@@ -1,0 +1,14 @@
+{
+    "name": "gamefield",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Резиновое поле",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:troyanskii-vladimir/scalingfield.git"
+    },
+    "devDependencies": {},
+    "dependencies": {},
+    "scripts": {}
+  }
+  
