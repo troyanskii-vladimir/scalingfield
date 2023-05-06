@@ -43,9 +43,9 @@ window.addEventListener('resize', () => {
 
 const playingFields = box.querySelectorAll('.cell[data-field]');
 
-playingFields.forEach((element) => {
-  element.style.backgroundColor = 'green';
+// playingFields.forEach((element) => {
+//   element.style.backgroundColor = 'green';
 
-  element.textContent = `${element.getAttribute('data-field')}`;
-})
+//   element.textContent = `${element.getAttribute('data-field')}`;
+// })
 
